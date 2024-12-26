@@ -1,0 +1,263 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+	--brand-color: #ff6b00;
+	--later-text: #606060;
+	--black: #101010;
+	--white: #fff;
+}
+
+/* home section  */
+
+.designer{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    color: var(--black);
+}
+
+.creative{
+font-weight: 700;
+font-size: 60px;
+line-height: 136%;
+color: var(--black);
+}
+
+.homeDami{
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+color: var(--later-text);
+text-align: justify;
+}
+
+.download{
+border-radius: 6px;
+padding: 15px 32px;
+width: 226px;
+height: 50px;
+background: var(--brand-color);
+color: white;
+}
+
+/* about section   */
+.aboutMe{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--black);
+}
+
+.canDesign{
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+color: var(--black);
+}
+
+.aboutDami{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--later-text);
+}
+.number{
+font-weight: 700;
+font-size: 21px;
+line-height: 150%;
+color: var(--brand-color);
+}
+
+.completed{
+font-weight: 500;
+font-size: 21px;
+line-height: 95%;
+text-align: center;
+color: var(--black);
+}
+
+.work{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #000;
+}
+
+.Ui{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+color: var(--black);
+}
+.serDami{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+text-align: center;
+color: var(--later-text);
+}
+
+.servicesHeadin{
+font-weight: 700;
+font-size: 44px;
+line-height: 130%;
+text-transform: uppercase;
+text-align: center;
+color: var(--black);
+}
+
+/* resume  */
+.education{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+color: #1e1e1e;
+}
+
+.BSC{
+font-weight: 500;
+font-size: 21px;
+line-height: 95%;
+color: #000;
+}
+.university{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--later-text);
+}
+.rusumiDami{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--later-text);
+}
+
+
+
+/* protfolio  */
+
+.portRes {
+    margin-bottom: 15px; /* Add spacing between rows */
+}
+
+.portResImg {
+    transition: transform 0.3s; /* Add a hover effect */
+}
+
+.portResImg:hover {
+    transform: scale(1.05); /* Slightly enlarge the image on hover */
+}
+
+
+  
+
+  /* testimonial  */
+  .siam{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+color: var(--black);
+ }
+ .ctoOfficer{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--later-text);
+ }
+ .clintDami{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--later-text);
+text-align: justify;
+ }
+
+ /* blog  */
+ .january{
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: #6f6b80;
+ }
+ .become{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+color: var(--black);
+ }
+
+ .readMore{
+font-weight: 600;
+font-size: 16px;
+line-height: 162%;
+color: var(--brand-color);
+ }
+
+ /* contact  */
+ .Contact::placeholder{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--later-text);
+ }
+ .Contact{
+    outline: none;
+    border: 1px solid  #ffe2d1;
+ }
+
+ .sendBtn{
+border-radius: 6px;
+padding: 15px 32px;
+width: 23%;
+height: 50px;
+background: var(--brand-color);
+font-weight: 500;
+font-size: 100%;
+line-height: 95%;
+color: var(--white);
+ }
+
+ /* footer  */
+ .footerDami{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--white);
+ }
+ .footerEmail{
+font-weight: 500;
+font-size: 24px;
+line-height: 130%;
+color: var(--white);
+ }
+ .explore{
+font-weight: 500;
+font-size: 21px;
+line-height: 95%;
+color: var(--white);
+ }
+ .footerLi{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    color: var(--white);
+    display: inline-block;
+ }
+ .dog{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--white);
+display: inline-block;
+ }
+
+ .lastDs{
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+color: var(--white);
+ }
