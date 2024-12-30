@@ -16,7 +16,7 @@ export const Home = () => {
 
   useEffect(()=>{
     async function data() {
-      let data = await axios.get('http://localhost:3000/bannerItem')
+      let data = await axios.get('https://dainamic-portfolio-backend.vercel.app/bannerItem')
       // console.log(data.data.subHead);
       setSubHead(data.data.subHead)
       setHead(data.data.head)
@@ -56,7 +56,7 @@ export const Home = () => {
           </div>
 
           <div className="col-lg-6">
-            <img  className='img-fluid shadow-md rounded-sm' src={`http://localhost:3000/${bannerImg}`} alt="images" />
+            <img  className='img-fluid shadow-md rounded-sm' src={`https://dainamic-portfolio-backend.vercel.app/${bannerImg}`} alt="images" />
           </div>
         </div>
       </div>

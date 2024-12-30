@@ -19,7 +19,7 @@ export const Services = () => {
 
     useEffect(()=>{
       async  function data(){
-            let data = await axios.get('http://localhost:3000/serviceItem')
+            let data = await axios.get('https://dainamic-portfolio-backend.vercel.app/serviceItem')
             // console.log(data.data);
             setList(data.data)
         }
@@ -45,7 +45,7 @@ export const Services = () => {
                      <div className='shadow-md hover:bg-[#FFF5EF]  text-center p-3 rounded-md mt-3 portResImg'>
  
                          <div className='flex justify-center'>
-                            {item.showImg ?  <img className='img-fluid py-3' src={`http://localhost:3000/${item.serImg}`} alt="images" /> : <div className='w-[83px] h-[83px] bg-slate-200 d-flex align-items-center justify-center'> No Img</div>}
+                            {item.showImg ?  <img className='img-fluid py-3' src={`https://dainamic-portfolio-backend.vercel.app/${item.serImg}`} alt="images" /> : <div className='w-[83px] h-[83px] bg-slate-200 d-flex align-items-center justify-center'> No Img</div>}
 
                 
 
