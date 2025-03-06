@@ -14,7 +14,7 @@ export const Navbar = () => {
 
   useEffect(()=>{
     async function fetchData(){
-      let data = await axios.get('https://dainamic-portfolio-backend.vercel.app/navItem')
+      let data = await axios.get('https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/navItem')
         setList(data.data.menu.split(","))
         setButtonText(data.data.buttonText)
         setButtonShow(data.data.showButton)

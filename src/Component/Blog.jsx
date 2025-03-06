@@ -13,7 +13,7 @@ export const Blog = () => {
 
   useEffect(()=>{
     async function data(){
-        let data = await axios.get('https://dainamic-portfolio-backend.vercel.app/blogItem')
+        let data = await axios.get('https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/blogItem')
         // console.log(data.data);
         setList(data.data)
         
@@ -39,7 +39,7 @@ export const Blog = () => {
                     <div className='shadow-md rounded-md mt-3'>
                         <div className='flex justify-center'>
                           {
-                            item.showImg ? <img className='img-fluid' src={`https://dainamic-portfolio-backend.vercel.app/${item.blogImg}`} alt="images" /> : "No Img"
+                            item.showImg ? <img className='img-fluid' src={`https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/${item.blogImg}`} alt="images" /> : "No Img"
                           }
                         
 

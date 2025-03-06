@@ -10,7 +10,7 @@ export const Portfolio = () => {
 
 useEffect(()=>{
     async function data(){
-        let data = await axios.get('https://dainamic-portfolio-backend.vercel.app/portItem')
+        let data = await axios.get('https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/portItem')
         console.log(data);
         setList(data.data)
         
@@ -34,7 +34,7 @@ useEffect(()=>{
             {
                 list.map((item)=>(
                     <div className="col-12 col-sm-6 col-lg-4 portRes">
-                    <img className='img-fluid mt-3 shadow-md portResImg' src={`https://dainamic-portfolio-backend.vercel.app/${item.portImg}`} alt="Portfolio Item 1" />
+                    <img className='img-fluid mt-3 shadow-md portResImg' src={`https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/${item.portImg}`} alt="Portfolio Item 1" />
                 </div>
                 ))
             }

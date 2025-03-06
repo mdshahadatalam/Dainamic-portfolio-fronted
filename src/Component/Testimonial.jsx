@@ -21,7 +21,7 @@ export const Testimonial = () => {
   useEffect(()=>{
     async function data(){
 
-      const data = await axios.get('https://dainamic-portfolio-backend.vercel.app/testimonialItem')
+      const data = await axios.get('https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/testimonialItem')
       // console.log(data.data);
       setList(data.data)
       
@@ -50,7 +50,7 @@ export const Testimonial = () => {
                    <div className='flex align-items-center py-4'>
                       <div> 
                         {
-                          item.showImg ? <img className='img-fluid' src={`https://dainamic-portfolio-backend.vercel.app/${item.tesImg}`} alt="images" /> :"No Img"
+                          item.showImg ? <img className='img-fluid' src={`https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/${item.tesImg}`} alt="images" /> :"No Img"
                         }
                          
                       </div>

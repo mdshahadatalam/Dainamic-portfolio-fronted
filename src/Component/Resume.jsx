@@ -10,7 +10,7 @@ export const Resume = () => {
 
   useEffect(()=>{
     async function data() {
-        let data = await axios.get('https://dainamic-portfolio-backend.vercel.app/resumeItem')
+        let data = await axios.get('https://dainamic-portfolio-backend-git-main-md-shahadat-alams-projects.vercel.app/resumeItem')
         // console.log(data.data)
         setList(data.data)
     }
